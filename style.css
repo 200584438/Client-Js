@@ -1,0 +1,44 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Story Output */
+#storyOutput {
+    border: 2px solid #333;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fff; /* White background for output */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-size: 1.2em; /* Slightly larger text */
+    min-height: 100px; /* Minimum height for output area */
+}
+
+/* Buttons */
+button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em; /* Font size for buttons */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover Effects for Buttons */
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    button {
+        width: 100%; /* Full-width buttons on small screens */
+        margin: 5px 0; /* Vertical margin for small screens */
+    }
+}
